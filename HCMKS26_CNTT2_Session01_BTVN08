@@ -1,0 +1,25 @@
+1. Mục tiêu
+Vận dụng tháp DIKW (Data, Information, Knowledge, Wisdom) trong phân tích nghiệp vụ.
+4. Yêu cầu đầu ra
+Phần 1: Phân tích vấn đề
+1. Chỉ ra điểm sai lệch trong cách phân loại DIKW hiện tại.
+2. Đưa ra định nghĩa đúng về Data, Info, Knowledge, Wisdom dựa trên kiến thức đã học.
+Phần 2: Hoàn thiện bài
+3. Sắp xếp lại 4 mệnh đề trên vào đúng các tầng của tháp DIKW.
+—---------------------------------------------------------------------------------
+1.1 
+-Cách xắp xếp bị ngược so với mô hình dikw thông thường 
+-Sai ở tầng data:“Khách hàng A thường xuyên vắng nhà...” nghe không giống một dữ liệu thô,giống một câu nhận xét hay đánh giá hơn => thuộc tầng knowlegde
+-Sai ở tầng information:mấy con số đứng chụm không có ý nghĩa,do đó nó sẽ là dữ liệu thô thuộc nhóm data
+-Sai ở tầng knowledge:“Đề xuất giao hàng...” là giải pháp => thuộc tầng wisdom
+-Sai ở tầng wisdom:”Bảng thống kê số đơn giao trễ trong tháng” => dùng loại trừ thì còn tầng information
+1.2
+-Data là dữ liệu thô sơ,ở riêng thường không có ý nghĩa cu thể
+-Infor là dữ liệu thô sơ đã qua sử lý,kết hợp để người đọc có thể hiểu được nội dung
+-Knowledge đơn giản là hiểu được nguyên nhân,nhận xét hay đánh giá
+-Wisdom:đưa ra phán đoán đúng đắn,chiến lượt hay hành động hiệu quả
+2.3
+-Data :1205, 50000, 0912345678.
+-Infor :Bảng thống kê số đơn giao trễ trong tháng 
+-Knowledge :“Khách hàng A thường xuyên vắng nhà vào buổi sáng” 
+-Wisdonm :“Đề xuất giao hàng cho khách A vào buổi chiều để tăng tỷ lệ thành công” 
