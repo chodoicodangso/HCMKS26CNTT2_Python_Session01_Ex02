@@ -1,0 +1,25 @@
+4. Yêu cầu đầu ra
+Báo cáo phân tích và thiết kế giải pháp:
+1. Phân tích IPO: Xác định Input, Process, Output của tính năng chụp và lưu ảnh.
+2. Đề xuất giải pháp (Bẫy dữ liệu): Trình bày hướng xử lý nếu ảnh chụp từ máy tài xế vượt quá 5 MB.
+3. Tính toán dung lượng: Tính tổng dung lượng ảnh lưu trữ trong 1 tháng (30 ngày). Sau đó quy đổi kết quả sang đơn vị TB (Terabyte).
+_________________________________________________________________
+1
+-Input:
++Ảnh chụp bằng chứng giao hàng (2 bức ảnh từ app tài xế) 
++Thông tin đơn hàng đi kèm (Mã đơn hàng, thời gian giao)
+-Process:
++Tài xế chụp ảnh trên app,app gửi ảnh và mã đơn hàng lên server
++Server kiểm tra dung lượng ảnh,nếu hợp lệ thì lưu ảnh vào bộ nhớ lưu trữ và cập nhật trạng thái đơn thành cong
+-Output:
++Thông báo kết quả tải ảnh lên thành công/thất bại cho tài xế
++Đơn hàng trên hệ thống có kèm theo link ảnh để kiểm tra 
+2
+Thay vì bắt tài xế chụp ảnh gửi lên server, app sẽ làm ngược lại.Khách hàng khi nhận hàng sẽ mở app của họ ra,bấm vào đơn hàng để hiển thị một mã QR (mã này thay cho chữ ký điện tử).Tài xế chỉ cần bật camera trên app của mình lên để quét mã QR đó là xong 
+3
+Số ảnh chụp 1 ngày
+50.000 x 2 ảnh = 100000 ảnh
+Dung lượng ảnh lưu trong 1 ngày 
+100000 x 3MB = 300000 MB
+=>Tổng dung lượng 1 tháng 
+300000 x 30 = 9000000 MB = 9TB
